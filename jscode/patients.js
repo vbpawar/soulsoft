@@ -79,10 +79,10 @@ var listPatients = patients => {
             tblData += '<td bgcolor="#BB8FCE">' + getDate(patient.lastVisitDate) + '</td>';
             tblData += '<td bgcolor="#BB8FCE">' + patient.nextVisitDate + '</td>';
             tblData += '<td bgcolor="#BB8FCE"><div class="table-actions" style="text-align: left;">';
-            tblData += '<a href="#" onclick="editPatient(' + (k) + ')" title="Edit patients details"><i class="fas fa-user-injured" style="color:red"></i></a>';
-            tblData += '<a href="#" class="list-delete" onclick="takeAppointment(' + (k) + ')" title="Take appointment"><i class="fas fa-rupee-sign" style="color:purple"></i></a>';
+            tblData += '<a href="#" onclick="editPatient(' + (k) + ')" title="Edit patients details"><i class="far fa-clipboard" style="color:red"></i></a>';
+            tblData += '<a href="#" class="list-delete" onclick="takeAppointment(' + (k) + ')" title="Take appointment"><i class="fa fa-calendar" style="color:purple"></i></a>';
             tblData += '<a href="#"  onclick="opdPayment(' + (k) + ')" title="Opd Payment"><i class="fas fa-receipt" style="color:blue"></i></a>';
-            tblData += '<a href="#"  onclick="acceptPayment(' + (k) + ')" title="Generate Payment"><i class="fas fa-rupee-sign" style="color:green"></i></a>';
+            tblData += '<a href="#"  onclick="acceptPayment(' + (k) + ')" title="Generate Payment"><i class="fa fa-file-pdf-o" style="color:green"></i></a>';
     
           } else {
             tblData += '<tr><td><img src="img/user.png" class="table-user-thumb" alt="Upload"></td>';
@@ -93,10 +93,10 @@ var listPatients = patients => {
             tblData += '<td>' + getDate(patient.lastVisitDate) + '</td>';
             tblData += '<td>' + patient.nextVisitDate + '</td>';
             tblData += '<td><div class="table-actions" style="text-align: left;">';
-            tblData += '<a href="#" onclick="editPatient(' + (k) + ')" title="Edit patients details"><i class="fas fa-user-injured" style="color:red"></i></a>';
-            tblData += '<a href="#" class="list-delete" onclick="takeAppointment(' + (k) + ')" title="Take appointment"><i class="fas fa-rupee-sign" style="color:purple"></i></a>';
+            tblData += '<a href="#" onclick="editPatient(' + (k) + ')" title="Edit patients details"><i class="far fa-clipboard" style="color:red"></i></a>';
+            tblData += '<a href="#" class="list-delete" onclick="takeAppointment(' + (k) + ')" title="Take appointment"><i class="fa fa-calendar" style="color:purple"></i></a>';
             tblData += '<a href="#"  onclick="opdPayment(' + (k) + ')" title="Opd Payment"><i class="fas fa-receipt" style="color:blue"></i></a>';
-            tblData += '<a href="#"  onclick="acceptPayment(' + (k) + ')" title="Generate Payment"><i class="fas fa-rupee-sign" style="color:green"></i></a>';
+            tblData += '<a href="#"  onclick="acceptPayment(' + (k) + ')" title="Generate Payment"><i class="fas fa-calendar-alt" style="color:green"></i></a>';
 }
             tblData += '</div></td></tr>';
         //tblData += '<td>' + patient.mobile1 + '</td>';
