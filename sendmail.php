@@ -1,19 +1,33 @@
 <?php
-$name = $_POST['name'];
-$email = $_POST['email'];
-$dropdown = $POST['dropdown'];
-$message = $_POST['message'];
-$formcontent="From: $name \n Message: $message";
-$recipient = "soulsoft@gmail.com";
-$subject = "Contact Form";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo '<div class="form-group">
-<div style="background: #fff;padding-top:200px;color:#fff;">
-	<div class="container" style="position: static;max-width: 1200px;margin: 0 auto;background: #131d33;padding: 100px 15px;text-align: center;">
-	    <h1 style="text-shadow: 11px 20px 8px rgb(0, 0, 0);">Congratulations! Your Mail has been sent Successfully  from '.$email.'  </h1>
-	    <a href="contact.html" style="background: #ffffff;text-decoration: none;color: #000;font-weight: 700;padding: 15px 30px;margin-top: 10px;display: inline-block;">Back To Home</a>
-	</div>
-</div>
-</div>'
-;?>
+header('Access-Control-Allow-Origin: *');
+header('Content-Type: application/json');
+
+ $response = [];
+    // EDIT THE 2 LINES BELOW AS REQUIRED
+    $email_to = "darshanvnikumbh@gmail.com";
+   
+
+    $name = $_POST['name']; // required
+    $email_from = $_POST['email']; // required
+    $comments = $_POST['message']; // required
+    $email_subject = $_POST['subject'];
+  
+    $email_message = "<b>Contact Details:</b><br><br>";
+ 
+    $email_message .= "Name: ".$name."<br>";
+    $email_message .= "Email: ".$email_from."<br>";
+    $email_message .= "Comments: ".$comments."<br>";
+ 
+// create email headers
+  $headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+$headers .= "From:".$email_from."\r\n";
+//$headers = 'From: '.$email_to."\r\n".'Reply-To: '.$email_from."\r\n" .'X-Mailer: PHP/' . phpversion();
+if(@mail($email_to, $email_subject, $email_message, $headers)){
+   $response['msg'] = 'Thank you for contacting us. we will get back to you soon.';
+   }else{
+  $response['msg'] = 'Sorry Message has not send please try again';
+   }
+exit(json_encode($response));
+?>
