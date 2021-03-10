@@ -6,10 +6,10 @@
 
 <?php include './header.php'; ?>
 
-<section class="contact_area">
+<!--<section class="contact_area">-->
+<section class="blog sec-padd2">
     <div class="home-google-map">
-
-        <div 
+<!--        <div 
             class="google-map" 
             id="contact-google-map" 
             data-map-lat="40.713603" 
@@ -18,7 +18,9 @@
             data-map-title="Chester"
             data-map-zoom="11" >
 
-        </div>
+        </div>-->
+
+
 
     </div>
     <div class="container">
@@ -30,7 +32,7 @@
                             <p>Please contact us using the information below. For additional <br>information on our management consulting services, please visit the appropriate page on our site.</p>
                             <ul class="contact-info">
                                 <li><i class="fa fa-map-signs"></i> Shop No. 9, Market Yard <br>Pune-Nashik Highway <br>Sangamner, Ahmednagar <br><a href="#"><i class="fa fa-street-view"></i>view on map</a></li>
-                                <li><i class="icon-telephone"></i> +918055798579 | +91702062232</li>
+                                <li><i class="icon-telephone"></i> +918055798579 | +917020622324</li>
                                 <li><i class="icon-note"></i>prasad.godage@gmail.com</li>
                             </ul>
                         </div>
