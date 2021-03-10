@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Soulsoft || Contact</title> 
+
 <?php include './header.php'; ?>
 
 <section class="contact_area">

@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Soulsoft || WEB BASED APPLICATION</title> 
+
 <?php include './header.php'; ?>
 <section class="blog sec-padd2">
     <div class="container">

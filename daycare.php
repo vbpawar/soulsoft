@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Soulsoft || Doctor's DayCare</title> 
+
 <?php include './header.php'; ?>
 <section class="blog sec-padd2">
     <div class="container">

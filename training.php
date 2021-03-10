@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Soulsoft || Training/Internship</title> 
+
+
+
 <?php include './header.php'; ?>
 
 
