@@ -151,7 +151,7 @@
                         <div class="float_left">
                             <h2>want to consult with our consultant?</h2>
                         </div>
-                        <div class="float_right"><a href="#" class="thm-btn">get a quote <i class="fa fa-sort-desc"></i></a></div>
+                        <div class="float_right"><a href="contact.php" class="thm-btn">Contact with Us <i class="fa fa-sort-desc"></i></a></div>
                     </div>
                 </div>
             </section>
