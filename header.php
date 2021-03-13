@@ -84,6 +84,7 @@
                                             
                                         </li>
                                         <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="download.php">Downloads</a></li>
                                     </ul>
                                     <ul class="mobile-menu clearfix">
 
