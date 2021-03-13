@@ -212,7 +212,7 @@
                                  data-responsive_offset="on"
                                  data-start="2300">
                                 <div class="slide-content-box">
-                                    <a class="thm-btn" href="contact.html">contact us <i class="fa fa-sort-desc"></i></a>     
+                                    <a class="thm-btn" href="contact.php">contact us <i class="fa fa-sort-desc"></i></a>     
                                 </div>
                             </div>
                         </li>
@@ -247,7 +247,7 @@
                                  data-responsive_offset="on"
                                  data-start="2300">
                                 <div class="slide-content-box">
-                                    <a class="thm-btn" href="contact.html">contact us <i class="fa fa-sort-desc"></i></a>     
+                                    <a class="thm-btn" href="contact.php">contact us <i class="fa fa-sort-desc"></i></a>     
                                 </div>
                             </div>
                         </li>
